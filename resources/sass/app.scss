@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Adjustment of Bootstrap
+label {
+    margin-bottom: 0px;
+}
+
+// Guest
+.guest-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Authenticated
+.setting-segment {
+    margin:20px 0px;
+    .setting-segment-title {
+        align-items: center;
+
+        span {
+            text-transform: uppercase;
+            font-size: large;
+            color: $blue;
+        }
+    }
+}
